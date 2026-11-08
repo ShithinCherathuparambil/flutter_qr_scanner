@@ -24,4 +24,12 @@ void main() {
       findsOneWidget,
     );
   });
+
+  testWidgets('Verify Scan button and initial state', (WidgetTester tester) async {
+    await tester.pumpWidget(const MyApp());
+
+    expect(find.text('Scan QR / Barcode'), findsOneWidget);
+    expect(find.text('Scanned Result'), findsOneWidget);
+    expect(find.text('No barcode or QR code scanned yet.'), findsOneWidget);
+  });
 }
