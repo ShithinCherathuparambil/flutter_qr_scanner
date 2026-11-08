@@ -1,7 +1,7 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_qr_scanner/flutter_qr_scanner_method_channel.dart';
-import 'package:flutter_qr_scanner/src/errors.dart';
+import 'package:native_qr_scanner/flutter_qr_scanner_method_channel.dart';
+import 'package:native_qr_scanner/src/errors.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

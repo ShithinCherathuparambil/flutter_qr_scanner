@@ -1,0 +1,14 @@
+.agents/
+.claude/
+.codex/
+.gemini/
+.opencode/
+.idea/
+*.iml
+.gradle/
+.kotlin/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/

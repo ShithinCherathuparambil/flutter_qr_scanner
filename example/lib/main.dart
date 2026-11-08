@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_qr_scanner/flutter_qr_scanner.dart';
+import 'package:native_qr_scanner/native_qr_scanner.dart';
 
 void main() {
   runApp(const MyApp());

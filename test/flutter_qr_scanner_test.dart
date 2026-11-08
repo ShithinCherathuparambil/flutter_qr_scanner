@@ -1,7 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_qr_scanner/flutter_qr_scanner.dart';
-import 'package:flutter_qr_scanner/flutter_qr_scanner_platform_interface.dart';
-import 'package:flutter_qr_scanner/flutter_qr_scanner_method_channel.dart';
+import 'package:native_qr_scanner/native_qr_scanner.dart';
+import 'package:native_qr_scanner/flutter_qr_scanner_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 class MockFlutterQrScannerPlatform
