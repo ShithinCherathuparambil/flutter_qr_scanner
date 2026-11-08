@@ -47,3 +47,4 @@ class NativeQrScanner {
 
 /// Backwards-compatible alias for [NativeQrScanner].
 typedef FlutterQrScanner = NativeQrScanner;
+
