@@ -1,1 +1,1 @@
-rootProject.name = "flutter_qr_scanner"
+rootProject.name = "native_qr_scanner"

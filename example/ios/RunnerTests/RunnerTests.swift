@@ -5,7 +5,7 @@ import XCTest
 // If your plugin has been explicitly set to "type: .dynamic" in the Package.swift,
 // you will need to add your plugin as a dependency of RunnerTests within Xcode.
 
-@testable import flutter_qr_scanner
+@testable import native_qr_scanner
 
 // This demonstrates a simple unit test of the Swift portion of this plugin's implementation.
 //

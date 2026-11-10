@@ -1,3 +1,9 @@
+## 0.0.2
+
+* Add explicit platform declaration for Android and iOS in `pubspec.yaml`.
+* Add Swift Package Manager (SwiftPM) support for iOS via `ios/native_qr_scanner/Package.swift`.
+* Synchronize iOS podspec source paths with the Swift package directory layout.
+
 ## 0.0.1
 
 * Initial release of `native_qr_scanner`.

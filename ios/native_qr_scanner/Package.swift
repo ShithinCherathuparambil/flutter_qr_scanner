@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "flutter_qr_scanner",
+    name: "native_qr_scanner",
     platforms: [
         .iOS("15.0")
     ],
     products: [
-        .library(name: "flutter-qr-scanner", targets: ["flutter_qr_scanner"])
+        .library(name: "native-qr-scanner", targets: ["native_qr_scanner"])
     ],
     dependencies: [
         .package(name: "FlutterFramework", path: "../FlutterFramework")
     ],
     targets: [
         .target(
-            name: "flutter_qr_scanner",
+            name: "native_qr_scanner",
             dependencies: [
                 .product(name: "FlutterFramework", package: "FlutterFramework")
             ],
@@ -34,3 +34,4 @@ let package = Package(
         )
     ]
 )
+

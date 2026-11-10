@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'native_qr_scanner'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A fast, cross-platform Flutter plugin for native QR and barcode scanning.'
   s.description      = <<-DESC
 A fast, cross-platform Flutter plugin for QR and barcode scanning with auto-zoom on Android via Google Play Services and AVFoundation on iOS.
@@ -13,7 +13,7 @@ A fast, cross-platform Flutter plugin for QR and barcode scanning with auto-zoom
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Shithin Cherathuparambil' => 'shithincp@gmail.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'flutter_qr_scanner/Sources/flutter_qr_scanner/**/*'
+  s.source_files = 'native_qr_scanner/Sources/native_qr_scanner/**/*'
   s.dependency 'Flutter'
   s.platform = :ios, '15.0'
 

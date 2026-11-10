@@ -1,6 +1,6 @@
 name: native_qr_scanner
 description: "A fast, cross-platform Flutter plugin for QR and barcode scanning with auto-zoom on Android via Google Play Services and AVFoundation on iOS."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/ShithinCherathuparambil/flutter_qr_scanner
 repository: https://github.com/ShithinCherathuparambil/flutter_qr_scanner
 issue_tracker: https://github.com/ShithinCherathuparambil/flutter_qr_scanner/issues
@@ -10,6 +10,10 @@ topics:
   - scanner
   - camera
   - google-code-scanner
+
+platforms:
+  android:
+  ios:
 
 environment:
   sdk: ^3.13.7
